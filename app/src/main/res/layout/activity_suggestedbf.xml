@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BMR.Suggestedbf">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="332dp"
+        android:layout_height="476dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Recipe: Let's get this bread\n\nIngredients:\n- Oats, 150g\n- Wholemilk, 150ml
+\n- Frozen berries 100g\n- Cinammon\n\nInstructions:\nIn a small pot, stir oats, milk, berries, cinnamon and salt over medium high heat.
+\nWhen the mixture starts to bubble, crush the berries with the back of the spoon and turn the heat to medium low and cover. Cook for 3-5 more minutes or until oats are tender to your preference, stirring occasionally.
+\n\nTotal calories: 725"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:textColor="#FFFFFF"/>
+</android.support.constraint.ConstraintLayout>

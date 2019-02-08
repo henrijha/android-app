@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.henri.aub">
+    <!--android:name=".BMR.BmrCalculator"-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AUB"
+        tools:ignore="GoogleAppIndexingWarning"> <!-- remember to check this! used for preloaded_fonts? -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CategoryActivity.CategoryTypeBreakfast" />
+        <activity android:name=".CategoryActivity.CategoryTypeLunch" />
+        <activity android:name=".CategoryActivity.CategoryTypeDinner" />
+        <activity android:name=".BMR.SuggestedMeals" />
+        <activity android:name=".BMR.CalorieIntake" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".BMR.BmrMenu" />
+        <activity android:name=".BMR.Suggestedbf" />
+        <activity android:name=".BMR.Suggestedlunch" />
+        <activity android:name=".BMR.Suggesteddinner" />
+        <activity android:name=".CategoryActivity.RecipeDetailsActivity"></activity>
+    </application>
+
+</manifest>
